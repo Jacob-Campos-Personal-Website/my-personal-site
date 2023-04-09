@@ -27,14 +27,41 @@
 
 .links {
     position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
     top: 2%;
-    left: 50%;
+    left: 45%;
     z-index: 5;
 }
 
-.links a {
+a {
     margin-left: 40px;
-    color: white;
+    position: relative;
+    color: rgb(175, 172, 172);
     font-size: 40px;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    padding: 0 10px;
+    letter-spacing: 0.5px;
+}
+
+.active {
+    color:white;
+}
+
+a::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(252, 13, 13);
+    height: 3px;
+    width: 0%;
+    left: 0%;
+    bottom: -2px;
+    transition: 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
 }
 
