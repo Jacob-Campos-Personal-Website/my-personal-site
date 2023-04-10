@@ -1,0 +1,15 @@
+.text {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    z-index: 5;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    line-height: 115%;
+}
+
+.name-color {
+    color: plum;
+    font-style:italic;
+}
