@@ -2,10 +2,32 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.blue-box {
+    background-color: #189BCC;
+    width: 1480px;
+    height: 825px;
+}
+
+.blue-box2 {
+    background-color: #189BCC;
+    width:500px;
+    height: 500px;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    z-index: 5;
+}
+
+.background2 {
+    width: 1480px;
+    z-index: 4;
+    height: 100vh;
+}
+
 .box {
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 22%;
+    left: 26%;
     max-width: 600px;
     padding: 50px;
     background: rgba(225, 225, 225, .2);
@@ -19,7 +41,7 @@
     padding: 0;
     font-size: 30px;
     text-transform: uppercase;
-    color: red;
+    color: rgb(13, 72, 140);
 }
 
 .box p {
