@@ -13,3 +13,33 @@
     color: plum;
     font-style:italic;
 }
+
+.welcome {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 70%;
+    left: 6%;
+    z-index: 6;
+}
+
+.welcome span {
+    position: relative;
+    display: inline-block;
+    color:white;
+    font-size: 60px;
+    text-transform: uppercase;
+    animation: animate 1s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(-20px);
+    }
+    40%,100%{
+        transform: translateY(0px);
+    }
+}
