@@ -2,6 +2,7 @@
     background: no-repeat url('https://c4.wallpaperflare.com/wallpaper/819/915/787/pink-floyd-the-dark-side-of-the-moon-wallpaper-preview.jpg');
     background-size: cover;
     height: 100vh;
+    width: 100vw;
     filter: blur(3px);
 }
 
@@ -35,4 +36,13 @@
     font-size: 30px;
     text-transform: uppercase;
     color: rgb(43, 47, 50);
+}
+
+.box {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
 }
